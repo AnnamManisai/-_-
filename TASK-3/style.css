@@ -1,0 +1,62 @@
+body{
+    background-image: url("img/tem.png");
+    background-size:auto;
+    background-position: absolute;
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: white;
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+label{
+    font-size: 25px;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    padding: 20px 35px;
+    background: rgb(56, 56, 199);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: -250px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 60px 22px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: -40px;
+}
+.bt{
+    margin-top: -10px;
+    margin-left: 150px;
+}
